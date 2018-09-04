@@ -1,4 +1,4 @@
-package com.miguelcamposrivera.a01_linearlayout;
+package com.miguelcamposrivera.a02_relativelayout;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
