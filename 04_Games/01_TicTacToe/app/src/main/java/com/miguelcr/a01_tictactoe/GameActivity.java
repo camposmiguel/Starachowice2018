@@ -137,16 +137,6 @@ public class GameActivity extends AppCompatActivity {
         } else if(selectedCells[1] == selectedCells[4]
                 && selectedCells[1] == selectedCells[7]
                 && selectedCells[1] != 0) {
-            //3. 1,4,7
-            existSolution = true;
-        } else if(selectedCells[2] == selectedCells[5]
-                && selectedCells[2] == selectedCells[8]
-                && selectedCells[2] != 0) {
-            //4. 2,5,8
-            existSolution = true;
-        }   else if(selectedCells[2] == selectedCells[5]
-                && selectedCells[2] == selectedCells[8]
-                && selectedCells[2] != 0) {
             //5. 1,4,7
             existSolution = true;
         } else if(selectedCells[2] == selectedCells[5]
@@ -154,13 +144,23 @@ public class GameActivity extends AppCompatActivity {
                 && selectedCells[2] != 0) {
             //6. 2,5,8
             existSolution = true;
-        }  else if(selectedCells[2] == selectedCells[5]
+        }   else if(selectedCells[1] == selectedCells[4]
+                && selectedCells[1] == selectedCells[7]
+                && selectedCells[1] != 0) {
+            //7. 1,4,7
+            existSolution = true;
+        } else if(selectedCells[2] == selectedCells[5]
                 && selectedCells[2] == selectedCells[8]
                 && selectedCells[2] != 0) {
+            //6. 2,5,8
+            existSolution = true;
+        }  else if(selectedCells[0] == selectedCells[4]
+                && selectedCells[0] == selectedCells[8]
+                && selectedCells[20] != 0) {
             // 7. 0,4,8
             existSolution = true;
-        }   else if(selectedCells[2] == selectedCells[5]
-                && selectedCells[2] == selectedCells[8]
+        }   else if(selectedCells[2] == selectedCells[4]
+                && selectedCells[2] == selectedCells[6]
                 && selectedCells[2] != 0) {
             // 8. 2,4,6
             existSolution = true;
