@@ -177,6 +177,7 @@ public class GameActivity extends AppCompatActivity {
 
         if(existSolution) {
             Toast.makeText(this, winnerMessage, Toast.LENGTH_SHORT).show();
+            gameOver = true;
         }
 
 
